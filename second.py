@@ -1,5 +1,3 @@
-name= "JACK"
-city= "New York"
 pet= "dog"
 name = "JACK"
 print((name)  + " " + ( pet))
