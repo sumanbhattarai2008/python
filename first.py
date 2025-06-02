@@ -7,10 +7,9 @@ print("Hello + Angela")
 print("Hello" + "Angela")
 print("Hello" + " Angela")
 print("Hello" + " " + "Angela")
-input("What is your name?")
 print("Hello " +  input("What is your name?"))
 print(len(input("What is your name?")))
- name= "JACK"
+name= "JACK"
 city= "New York"
 pet= "dog"
 name = "JACK"

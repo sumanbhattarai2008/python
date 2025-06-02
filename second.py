@@ -40,3 +40,10 @@ x = days_remaining = years_remaining * 365
 y = months_remaining = years_remaining * 12
 z = weeks_remaining = years_remaining * 52
 print(f"You have {w} years, {y} months, {z} weeks, and {x} days left until you tu 170")
+print("Welecome to the tip calculator!")
+a = bill = float(input("What was the total bill? $"))
+tip = int((input("What percentage of tip would you like to give?")))
+b = tip_amount = bill * (tip / 100)
+c = people = int(input("How many people would like to split the bill? "))
+actual_bill = (a+ b) / c
+print("Each peroson should pay" + str(actual_bill))
