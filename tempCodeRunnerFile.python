@@ -1,0 +1,10 @@
+score = 10
+height = 300
+iswinning = True
+print(f"Your score is {score}, your height is {height} cm, and it is {iswinning} that you are winning.")
+age = float("What is your age?"))
+w = years_remaining = 90 - age
+x = days_remaining = years_remaining * 365
+y = months_remaining = years_remaining * 12
+z = weeks_remaining = years_remaining * 52
+print(f"You have {w} years, {y} months, {z} weeks, and {x} days left until you tu 170")
