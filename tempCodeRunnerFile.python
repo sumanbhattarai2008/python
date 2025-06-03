@@ -1,4 +1,1 @@
-a = int(input("a: "))
-b = int(input("b: "))
-sum = a + b #U
-print(sum)
+print(100 + float(22.222))

@@ -48,7 +48,7 @@ elif 30 <= bmi < 35:
 else:
  print(f"Your BMI is {bmi} and you are clinically obese.")
 
- size = input("What size pizza do you want?: S, M, L: ")
+size = input("What size pizza do you want?: S, M, L: ")
 add_pepperoni = input("Do you want pepperoni? Y or N: ")
 pepperoni_size = input("What size of pepperoni do you want?: S or M: ")
 extra_cheese = input("Do you want extra cheese? Y or N: ")
