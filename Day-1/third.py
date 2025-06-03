@@ -1,9 +1,13 @@
+#Missing days are just explanation and quizes.
+#Day 3-2
 print("Enter to the rollercoaster")
 height = int(input("What is your height in cm?"))
 if height > 120:
  print("You can ride the rollercoaster!")
 else:
- print("You can not ride the rollercoaster.")
+ print("Grow taller before ride the rollercoaster.")
+
+ #Day 3-
 age= int(input("What is your age? ")) 
 if age < 18:
  bill = 5
