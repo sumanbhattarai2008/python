@@ -70,6 +70,8 @@ elif a >=3 or a<0:
 else:
     print("You lose!")
 
+
+# Rock, Paper, Scissors game
 import random
 a = player_choice = int(input("What is your choice> 0 for rock, 1 for paper, 2 for scissors?: "))
 b = computer_choice = random.randint(0, 2)
@@ -86,6 +88,7 @@ elif a >=3 or a<0:
     print("Invalid choice! Please choose 0, 1, or 2.")    
 else:
     print("You lose!")
+    
 
 
          
