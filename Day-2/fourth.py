@@ -15,7 +15,6 @@ if random_side == 0:
 else:
     print("Tails")    
 
-
 countries = ["Nepal" , "India" , "China" , "Bangladesh" , "Bhutan" , "America", ] 
 print(countries[4])
 print(countries[-1])  
