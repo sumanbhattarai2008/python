@@ -2,7 +2,6 @@
 #Day 2-2
 #Data types : float, integers and string
 
-
 #Day 2-4
 print(len("anonymous"))
 num_char = len(input("What is your name? "))
@@ -25,6 +24,7 @@ print(two_digit_number)
 weight = input("Enter weight in kg: ")
 height = input("Enter height in m: ")
 bmi= int(weight) / float(height) ** 2
+
 print("Your BMI is: " + str(bmi))
 
 
