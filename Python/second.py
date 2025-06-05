@@ -2,6 +2,7 @@
 #Day 2-2
 #Data types : float, integers and string
 
+
 #Day 2-4
 print(len("anonymous"))
 num_char = len(input("What is your name? "))
