@@ -29,8 +29,8 @@ test_seed = int(input("Create a seed number: "))
 random.seed(test_seed)
 name = input("Give me everybody's name seperated by a comma: ")
 names = name.split(",")
-randome_name = random.choice(names)
-print(f"{randome_name} is going to buy the meal today!")
+random_name = random.choice(names)
+print(f"{random_name} is going to buy the meal today!")
 
 fruits = ["Apple", "Mango", "Banana", "Litchi"]  
 vegetables = ["Potato", "Tomato", "Onion", "Carrot"]  
