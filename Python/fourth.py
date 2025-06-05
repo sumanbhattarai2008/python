@@ -13,11 +13,11 @@ random_side = random.randint(0, 1)
 if random_side == 0:
     print("Heads")
 else:
-    print("Tails")    
+    print("Tails")
 
-countries = ["Nepal" , "India" , "China" , "Bangladesh" , "Bhutan" , "America", ] 
+countries = ["Nepal" , "India" , "China" , "Bangladesh" , "Bhutan" , "America", ]
 print(countries[4])
-print(countries[-1])  
+print(countries[-1])
 countries.extend(["Switzerland", "Germany"])
 print(countries)
 countries[1] = "Sweden"
@@ -31,8 +31,8 @@ names = name.split(",")
 random_name = random.choice(names)
 print(f"{random_name} is going to buy the meal today!")
 
-fruits = ["Apple", "Mango", "Banana", "Litchi"]  
-vegetables = ["Potato", "Tomato", "Onion", "Carrot"]  
+fruits = ["Apple", "Mango", "Banana", "Litchi"]
+vegetables = ["Potato", "Tomato", "Onion", "Carrot"]
 List = fruits + vegetables
 print(List)
 dirty_dozen = [fruits, vegetables]
@@ -64,8 +64,8 @@ elif a == 2 and b==1:
     print("You win!")
 elif a == 0 and b==2:
     print("You win!")
-elif a >=3 or a<0: 
-    print("Invalid choice! Please choose 0, 1, or 2.")    
+elif a >=3 or a<0:
+    print("Invalid choice! Please choose 0, 1, or 2.")
 else:
     print("You lose!")
 
@@ -83,17 +83,15 @@ elif a == 2 and b==1:
     print("You win!")
 elif a == 0 and b==2:
     print("You win!")
-elif a >=3 or a<0: 
-    print("Invalid choice! Please choose 0, 1, or 2.")    
+elif a >=3 or a<0:
+    print("Invalid choice! Please choose 0, 1, or 2.")
 else:
     print("You lose!")
-    
 
 
-         
-
-   
 
 
-         
+
+
+
 

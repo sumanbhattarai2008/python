@@ -10,7 +10,7 @@ for n in range(0, len(students_height)):
     students_height[n] = int(students_height[n])
 total_height = sum(students_height)
 number_of_students = len(students_height)
-average_height = total_height / number_of_students 
+average_height = total_height / number_of_students
 print(average_height)
 
 print(max(students_height))
@@ -28,12 +28,12 @@ total = 0
 for number in range(1,101):
     total += number
 print(total)
-    
+
 total2 = 0
 for number in range(1,101):
     if total2 %2 == 0:
         total2 += number
-print(total2)  
+print(total2)
 
 total3 = 0
 for number in range(1,101):
@@ -44,7 +44,7 @@ for number in range(1,101):
     if number % 3 == 0 and number % 5 == 0:
         print("FizzBuzz ")
     else:
-        print(number)    
+        print(number)
 
 total3 = 0
 for number in range(1,101):
@@ -55,7 +55,8 @@ for number in range(1,101):
     if number % 3 == 0 and number % 5 == 0:
         print("FizzBuzz ")
     else:
-        print(number)    
+        print(number)
+        
 
 #Password Generator Project
 import random
@@ -64,7 +65,7 @@ numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 symbols = ['!', '#', '$', '%', '&', '(', ')', '*', '+']
 
 print("Welcome to the PyPassword Generator!")
-nr_letters = int(input("How many letters would you like in your password?\n")) 
+nr_letters = int(input("How many letters would you like in your password?\n"))
 nr_symbols = int(input(f"How many symbols would you like?\n"))
 nr_numbers = int(input(f"How many numbers would you like?\n"))
 password = ""
