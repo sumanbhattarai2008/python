@@ -56,7 +56,6 @@ for number in range(1,101):
         print("FizzBuzz ")
     else:
         print(number)
-        
 
 #Password Generator Project
 import random
