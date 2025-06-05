@@ -27,6 +27,7 @@ print(len(a))
 print(a[0:3])
 print(len("anonymous"))
 
+
 #Day 1-10
 #Python Variables
 name = "Angela"
