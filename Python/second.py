@@ -7,7 +7,7 @@ print(len("anonymous"))
 num_char = len(input("What is your name? "))
 num_char =str(num_char)
 print("Your name has " + num_char + " characters")
-print(100 + float(22.222))
+print(100 + float(22.2222))
 
 #Day 2-5
 two_digit_number = input("Enter a two digit number: ")
@@ -24,9 +24,7 @@ print(two_digit_number)
 weight = input("Enter weight in kg: ")
 height = input("Enter height in m: ")
 bmi= int(weight) / float(height) ** 2
-
 print("Your BMI is: " + str(bmi))
-
 
 #Day 2-8
 score = 10
